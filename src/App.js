@@ -1,16 +1,14 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
-import Sidebar from './dotclick/sidebar';
+import MainContainer from './Components/Layout/MainContainer';
+import Sidebar from './Components/Layout/Sidebar';
 
-import SimpleSidebar from './dotclick/SimpleSIdebar';
-import Card from './dotclick/Card';
-import SidebarCardLayout from './SidebarLayout';
 function App() {
   return (
-    <div>
-     <SidebarCardLayout/>
-      
-    </div>
+    <React.Fragment >
+      <Sidebar/>
+      <MainContainer/>
+    </React.Fragment>
   );
 }
 

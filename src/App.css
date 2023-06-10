@@ -1,38 +1,301 @@
-.App {
-  text-align: center;
+.sidebar {
+  position: absolute;
+  width: 19%;
+  height: 1117px;
+  left: 0px;
+  top: 0px;
+  background: #ffffff;
+  box-shadow: 2px 0px 10px rgba(0, 0, 0, 0.25);
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.main-heading {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 800;
+  font-size: 35.4809px;
+  line-height: 43px;
+  margin-left: 40px;
+  color: #323232;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+ul {
+  list-style: none;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+ul > :first-child {
+  color: #72aa83;
+}
+ul > li {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 33px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.29);
+  padding-bottom: 20px;
+  margin: 20px 20px 20px 0px;
+  letter-spacing: -0.02em;
+  cursor: pointer;
+  color: #494949;
+}
+nav{
+  padding-bottom: 524px;
+}
+.last-section {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-left: 40px;
+}
+.logout-button {
+  width: 231px;
+  height: 70px;
+  background: linear-gradient(180deg, #48af78 0%, #42996b 100%);
+  border-radius: 10px;
+}
+.logout-button-text {
+  text-align: center;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 33px;
+  padding: 20px;
+  letter-spacing: -0.05em;
+  color: #ffffff;
+  display: block;
+}
+.last-section-text {
+  display: flex;
+  flex-direction: column;
+  padding: 5px 80px 5px 60px;
+}
+.last-section-text > span {
+  margin-top: 5px;
+}
+.typography1,
+.last-section-text {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17.5894px;
+  line-height: 21px;
+  letter-spacing: -0.07em;
+  color: #494949;
 }
 
-.App-link {
-  color: #61dafb;
+/* maincontainer */
+.main {
+  position: absolute;
+  left: 19%;
+  width: 81%;
+  height: 1117px;
+}
+.main >div{
+  margin-left: 8%;
+  margin-top: 3%;
+}
+.main-heading1 {
+  width: 422px;
+  height: 43px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28.5557px;
+  line-height: 43px;
+  letter-spacing: -0.02em;
+  color: #72aa83;
+}
+.section-one {
+  box-sizing: border-box;
+  width: 1114px;
+  height: 226px;
+  margin-top: 30px;
+  padding: 15px 0px 0px 25px;
+  background: #ffffff;
+  border: 1px solid #ffffff;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.25);
+}
+.section-two {
+  box-sizing: border-box;
+  width: 1114px;
+  height: 526px;
+  background: #ffffff;
+  padding: 25px;
+  border: 1px solid #ffffff;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 54px;
+}
+.grid-one {
+  display: flex;
+  flex-direction: row;
+}
+.grid-one > :nth-child(2) {
+  padding: 0px 40px;
+  border-left: 1.3193px solid rgba(0, 0, 0, 0.3);
+  border-right: 1.3193px solid rgba(0, 0, 0, 0.3);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.box {
+  margin: 30px;
+}
+.firstheading {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 29.3972px;
+  letter-spacing: -0.015em;
+  color: #48af78;
+}
+.secondheading {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16.9257px;
+  letter-spacing: -0.005em;
+  color: #959595;
+}
+.recived-bar {
+  box-sizing: border-box;
+  width: 1072px;
+  height: 48px;
+  border: 1px solid #959595;
+  border-radius: 24px;
+  display: flex;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16.9257px;
+  letter-spacing: -0.07em;
+  color: #959595;
+}
+.split-one {
+  box-sizing: border-box;
+  width: 387px;
+  height: 48px;
+  background: #fdf307;
+  border: 1px solid #fdf307;
+  border-radius: 24px 0px 0px 24px;
+  padding: 12px;
+}
+.split-two,
+.split-three {
+  border-left: 1.3193px solid rgba(0, 0, 0, 0.3);
+  box-sizing: border-box;
+  width: 387px;
+  height: 48px;
+  padding: 12px;
+  text-align: center;
+}
+.section-two {
+  margin-top: 70px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16.096px;
+  line-height: 19px;
+  letter-spacing: -0.07em;
+}
+.section-two > .grid-one + .recived-bar {
+  width: 712px;
+  height: 48px;
+  background: #44a16f;
+  border-radius: 24px;
+}
+.section-two > .grid-one + .recived-bar > span {
+  margin: 13px;
+  color: #ffffff;
+}
+.Cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+.card {
+  width: 275px;
+  height: 220px;
+  background: #f5f4f4;
+  border: 1px solid rgba(0, 0, 0, 0.18);
+  border-radius: 10px;
+}
+.card-section-one {
+  display: flex;
+  flex-direction: column;
+  height: 127px;
+  text-align: center;
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 19.1247px;
+  line-height: 29px;
+  letter-spacing: -0.01em;
+  color: #85c371;
+}
+.card-section-one > img {
+  margin-left: 120px;
+  margin-top: 20px;
+}
+.card-section-two {
+  box-sizing: border-box;
+  width: 275px;
+  height: 93px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17.5894px;
+  line-height: 21px;
+  letter-spacing: -0.07em;
+  color: #959595;
+  background: #eeeeee;
+  border: 1px solid rgba(0, 0, 0, 0.18);
+  box-shadow: 0px -2px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  padding: 7px;
+}
+.card-bottom {
+  margin-top: 20px;
+  display: flex;
+}
+.card-button {
+  margin-left: 50px;
+  width: 126px;
+  height: 40px;
+  background: #44a16f;
+  border-radius: 10px;
+  color: #ffffff;
+}
+.card-button span {
+  display: block;
+  padding-top: 12px;
+  text-align: center;
+  line-height: 1em;
+}
+.red-button {
+  position: absolute;
+  width: 127px;
+  height: 40px;
+  left: 320px;
+  top: 640px;
+  text-align: center;
+  background: #d96a6b;
+  border-radius: 10px;
+}
+.red-button > span {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13.3512px;
+  letter-spacing: -0.01em;
+  color: #ffffff;
+  display: block;
+  padding-top: 12px;
+  text-align: center;
+  line-height: 1em;
+}
+.bottom-text {
+  width: 200px;
+}
+.main-icon {
+  position: absolute;
+  width: 138px;
+  height: 138px;
+  left: 1250px;
+  top: 859px;
 }
